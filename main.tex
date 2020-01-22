@@ -1,0 +1,117 @@
+\documentclass[12pt, letterpaper, titlepage, fleqn]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{color,graphicx,overpic} 
+\usepackage{fancyhdr} % header/footer stuff
+\usepackage{amssymb} % math symbols
+\usepackage{mathtools} % more math stuff
+\usepackage{siunitx} % for SI units, ex. $3.5 ~ \si{kg.s^{-2}}$
+\usepackage{hyperref} % for hyperlinks
+\usepackage{subfiles}
+
+% Page geometry
+\geometry{top=2.54cm, left=2.1cm, right=2.1cm, bottom=2.1cm}
+
+% Indentation/space between paragraphs
+\setlength{\headheight}{15pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Line spacing
+\renewcommand{\baselinestretch}{1.5} 
+
+% Title page
+\title{\textbf{\Huge{ \begin{center}
+Physics 230 Notes\\ % Document name
+\end{center} }}}
+\author{ Lora Ma and Benjamin Kong\\}
+
+% Header/Footer
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\lhead{Header}
+\rfoot{}
+
+% Hyperlink colors
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,      
+    urlcolor=blue,
+}
+
+% $$$$$$$$$$$$$ CUSTOM COMMANDS $$$$$$$$$$$$$ %
+	% Format for creating new command: \newcommand{name}[num][default]{definition} 
+\DeclareMathOperator{\di}{d\!} % derivative operator symbol, ex. $\int f(x) \di x$
+\newcommand{\Eval}[3]{\left.#1\right\rvert_{#2}^{#3}} % evaluation bar (ex. evaluating integral or $\Eval{F(x)}{0}{2}$)
+\newcommand{\barrows}{\textcolor{magenta}{\Longrightarrow}\quad} % long arrow (start of line)
+\newcommand{\barrow}{\quad\textcolor{magenta}{\Longrightarrow}\quad} %long arrow 
+\newcommand{\sumi}[1][1]{ \sum_{n={#1}}^{\infty} } % sum starting at n = 1
+\newcommand{\limi}[1][n]{ \lim_{{#1}\to\infty} } % limit as n goes to infinity
+\newcommand{\ddx}[1][x]{ \dfrac{\text{d}}{\di #1} } % derivative operator
+\newcommand{\dyd}[2][y]{ \dfrac{\di #1}{\di #2} } % derivative of y w.r.t. x, (ex. \dyd{x} or \dyd[g]{t}).
+\newcommand{\bracks}[1]{ \left( #1 \right) } % scaled left and right brackets
+\newcommand{\pfrac}[2]{\left(\frac{#1}{#2}\right)} % scaled fraction with left/right brackets
+\newcommand{\tpfrac}[2]{\left(\tfrac{#1}{#2}\right)} % tiny fraction with left/right brackets
+\newcommand{\abs}[1]{\left| #1 \right|} % scaled fraction with left/right brackets
+\newcommand{\norm}[1]{\left\| #1 \right\|} % scaled fraction with left/right brackets
+\newcommand{\abracks}[1]{\langle #1 \rangle} % angled l/r brackets for vectors
+\newcommand{\cbracks}[1]{\left\{ #1 \right\}} % scaled curly l/r brackets 
+\newcommand{\sbracks}[1]{\left[ #1 \right]} % scaled square l/r brackets 
+% $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ %
+
+% $$$$$$$$$$$$$ CUSTOM SYMBOLS $$$$$$$$$$$$$$ %
+\newcommand{\R}{\mathbb{R}} % Real numbers
+\newcommand{\infnums}{1,2,\ldots}
+% $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ %
+
+\makeatletter
+\fancypagestyle{mypagestyle}{%
+  \fancyhf{}% Clear header/footer
+  \fancyfoot[C]{\thepage}% Page # in middle/centre of footer
+  \renewcommand{\headrulewidth}{0pt}% .4pt header rule
+  \def\headrule{{\if@fancyplain\let\headrulewidth\plainheadrulewidth\fi
+    \color{red}\hrule\@height\headrulewidth\@width\headwidth \vskip-\headrulewidth}}
+  \renewcommand{\footrulewidth}{0pt}%
+}
+\makeatother
+\pagestyle{mypagestyle}
+
+\begin{document}
+
+\maketitle
+
+\pagenumbering{gobble}
+\maketitle % Create the title page first.
+{
+  \hypersetup{}
+  \parskip 0pt
+  \tableofcontents
+} % Table  of contents next. 
+\newpage
+\pagenumbering{arabic}
+\pagestyle{mypagestyle}
+
+\chapter{Electric Charge and Electric Field}
+\section{Background Information}
+\subsection{Electromagnetism}
+Electromagnetism affects only charged particles, such as electrons and protons. Electrons, protons and neutrons have charges that are integer multiples of the elementary charge, $e$
+\chapter{Gauss's Law}
+
+\subfile{chapters/chap2.tex}
+
+\chapter{Electric Potential}
+\chapter{Capacitance and Dielectrics}
+\chapter{Current, Resistance, and Electromotive Force}
+\chapter{Direct-Current Circuits}
+\chapter{Magnetic Field and Magnetic Forces}
+\chapter{Sources of Magnetic Field}
+\chapter{Electromagnetic Induction}
+\chapter{Inductance}
+\chapter{Alternating Current}
+\chapter{Electromagnetic Waves}
+
+
+\end{document}
+
