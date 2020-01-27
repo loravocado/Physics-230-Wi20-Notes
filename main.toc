@@ -1,12 +1,13 @@
 \contentsline {chapter}{\numberline {1}Electric Charge and Electric Field}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Electric Potential}{2}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Capacitance and Dielectrics}{3}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Current, Resistance, and Electromotive Force}{4}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Direct-Current Circuits}{5}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Capacitance and Dielectrics}{6}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Magnetic Field and Magnetic Forces}{7}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Sources of Magnetic Field}{8}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Electromagnetic Induction}{9}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Inductance}{10}{chapter.10}%
-\contentsline {chapter}{\numberline {11}Alternating Current}{11}{chapter.11}%
-\contentsline {chapter}{\numberline {12}Electromagnetic Waves}{12}{chapter.12}%
+\contentsline {subsection}{\numberline {1.0.1}Electric Charge}{1}{subsection.1.0.1}%
+\contentsline {subsection}{\numberline {1.0.2}Conductors and Insulators}{2}{subsection.1.0.2}%
+\contentsline {chapter}{\numberline {2}Electric Potential}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Capacitance and Dielectrics}{4}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Current, Resistance, and Electromotive Force}{5}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Direct-Current Circuits}{6}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Magnetic Field and Magnetic Forces}{7}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Sources of Magnetic Field}{8}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Electromagnetic Induction}{9}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Inductance}{10}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Alternating Current}{11}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Electromagnetic Waves}{12}{chapter.11}%
