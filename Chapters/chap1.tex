@@ -80,7 +80,54 @@ To approximate the field of an electric dipole at $r>>d$ and using binomial expa
 \vec{E}(\vec{r}) = \frac{3(\vec{p}\cdot \vec{r})(\vec{r} - \vec{p})}{4 \pi \epsilon_0 r^3}
 \end{equation}
 where $\vec{p} = p\cos(\theta)$, and $\epsilon_0 = \SI{8.854e-12}{\frac{C^2}{N \cdot m^2}}$
+\newpage
+\subsection{Gauss's Law}
+Gauss's law states that the outward flux of the electric field through a closed surface is equal to the total charge inside the surface divided u the electric constant, $\epsilon_0$
+\begin{equation}
+\Phi_E \equiv \oint \vec{E}\cdot \di A = \frac{Q_{encl}}{\epsilon_0}
+\end{equation}
 
+The total flux through a closed surface and the air mass flux can be calculated using
+\begin{equation}
+\Phi_E = \oint\rho_m \vec{V} \cdot \di \vec{A}
+\end{equation}
+where, $\rho_m$ is mass density, $\vec{V}$ is the velocity 
+
+When no mass is created or destroyed
+\begin{equation}
+\Phi_M = \frac{-\di M_{encl}}{\di t}
+\end{equation}
+and if it is also stationary. $\Phi_M = 0$
+
+Mass creation is when:
+\begin{equation}
+\Phi_m + \frac{\di M}{\di t} > 0
+\end{equation}
+Mass destruction is when
+\begin{equation}
+\Phi_m + \frac{\di M}{\di t} < 0
+\end{equation}
+
+Conservation of charge
+\begin{equation}
+\Phi_Q + \frac{\di Q}{\di t} = 0
+\end{equation}
+
+Second Law of thermodynamics is when
+\begin{equation}
+\Phi_S + \frac{\di S}{\di t} \geq 0
+\end{equation}
+
+Gauss's law and spherical symmetry. Using coulomb's law for one charge
+\begin{equation}
+\vec{E} = \frac{q \vec{r}}{4 \pi \epsilon_0 r^2}
+\end{equation}
+
+For more than one charge, you need to do superposition
+
+Every region totally inside a conductor is neutral. Excess charge all lies on the surface (static). An interior surface of a conductor, surrounding a cavity, only has charge if there is nonzero charge inside the cavity; the two charges cancel
+
+Spherical symmetry
 %\begin{figure}[h]
 %    \centering
 %    \includegraphics[width = 0.5\linewidth]{chapter1_conductors.png}

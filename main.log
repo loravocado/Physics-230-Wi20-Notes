@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2020.1.22)  2 FEB 2020 18:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2020.1.22)  9 FEB 2020 21:12
 entering extended mode
 **./main.tex
 (main.tex
@@ -803,46 +803,50 @@ been already used, duplicate ignored
 l.23 \newpage
               [1
 
-] [2]) [3]
+] [2] [3]) (Chapters/chap2.tex [4]
 Chapter 2.
-[4
+) [5
 
 ]
 Chapter 3.
-[5
-
-]
-Chapter 4.
 [6
 
 ]
-Chapter 5.
+Chapter 4.
 [7
 
 ]
-Chapter 6.
+Chapter 5.
 [8
 
 ]
-Chapter 7.
+Chapter 6.
 [9
 
 ]
-Chapter 8.
+Chapter 7.
 [10
 
 ]
-Chapter 9.
+Chapter 8.
 [11
 
 ]
-Chapter 10.
+Chapter 9.
 [12
 
 ]
-Chapter 11.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
+Chapter 10.
 [13
+
+]
+Chapter 11.
+[14
+
+]
+Chapter 12.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
+[15
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
@@ -850,14 +854,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7413B5D7991580B63221ED198E53016A;983.
+(rerunfilecheck)             Checksum: C49B125420359474805E93B6D9AB72B6;1108.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 20349 strings out of 494410
- 383363 string characters out of 3174536
+ 20367 strings out of 494410
+ 383634 string characters out of 3174536
  439785 words of memory out of 3000000
- 24198 multiletter control sequences out of 15000+200000
+ 24201 multiletter control sequences out of 15000+200000
  543962 words of font info for 69 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
  44i,11n,67p,302b,783s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -872,9 +876,9 @@ ktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/lora/.miktex
 /texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/lora/.miktex/tex
 mfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/lora/.miktex/texmf
 s/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (15 pages, 155449 bytes).
+Output written on main.pdf (17 pages, 168008 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 240 PDF objects out of 1000 (max. 8388607)
+ 55 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
