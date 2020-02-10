@@ -96,6 +96,58 @@ Physics 230 Notes\\ % Document name
 
 
 \subfile{Chapters/chap1.tex}
+\section{Gauss's Law}
+Gauss's law states that the outward flux of the electric field through a closed surface is equal to the total charge inside the surface divided by the electric constant, $\epsilon_0$:
+\begin{equation}
+\Phi_E \equiv \oint \vec{E}\cdot \di \vec{A} = \frac{Q_{encl}}{\epsilon_0}.
+\end{equation}
+
+The total flux through a closed surface and the air mass flux can be calculated using
+\begin{equation}
+\Phi_E = \oint\rho_m \vec{V} \cdot \di \vec{A},
+\end{equation}
+where $\rho_m$ is the mass density and $\vec{V}$ is the velocity. The \textbf{electric flux} is analogous to mass flux, given by
+\begin{equation}
+\Phi_M = \int \rho_m \vec{v} \di \vec{A}.
+\end{equation}
+
+When no mass is created or destroyed, we have that
+\begin{equation}
+\Phi_M = \frac{-\di M_{encl}}{\di t}.
+\end{equation}
+and if it is also stationary. $\Phi_M = 0$
+
+Mass creation is when:
+\begin{equation}
+\Phi_m + \frac{\di M}{\di t} > 0
+\end{equation}
+Mass destruction is when
+\begin{equation}
+\Phi_m + \frac{\di M}{\di t} < 0
+\end{equation}
+
+Conservation of charge
+\begin{equation}
+\Phi_Q + \frac{\di Q}{\di t} = 0
+\end{equation}
+
+Second Law of thermodynamics is when
+\begin{equation}
+\Phi_S + \frac{\di S}{\di t} \geq 0
+\end{equation}
+
+Gauss's law and spherical symmetry. Using coulomb's law for one charge
+\begin{equation}
+\vec{E} = \frac{q \vec{r}}{4 \pi \epsilon_0 r^2}
+\end{equation}
+
+For more than one charge, you need to do superposition
+
+Every region totally inside a conductor is neutral. Excess charge all lies on the surface (static). An interior surface of a conductor, surrounding a cavity, only has charge if there is nonzero charge inside the cavity; the two charges cancel
+
+Spherical symmetry
+
+
 \subfile{Chapters/chap2.tex}
 
 \chapter{Electric Potential}
