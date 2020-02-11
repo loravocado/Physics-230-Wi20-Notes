@@ -14,7 +14,10 @@ Electric charge is conserved. This means that the total charge of any isolated s
 \begin{equation}
 F = k\frac{q_1q_2}{r^2},
 \end{equation}
-where $k = \SI{9.0e9}{\frac{N m^2}{C^2}}$, $q_1$ represents the first charge, $q_2$ represents the second charge, and $r$ represents the separation distance.
+where $k = \SI{9.0e9}{\frac{N m^2}{C^2}}$, $q_1$ represents the first charge, $q_2$ represents the second charge, and $r$ represents the separation distance. Note that $k$ can also be represtented as 
+\begin{equation}
+    k = \dfrac{1}{4\pi\epsilon_0}.
+\end{equation}
 
 The \textbf{principle of superposition of forces} is the vector sum of the individual forces:
 \begin{equation}
@@ -22,11 +25,14 @@ F = k\frac{q_1q_2}{(r_{12})^2}r_{12} + k\frac{q_1q_2}{(r_{13})^2}r_{13} = q_1 \v
 \end{equation}
 
 \section{Electric Field and Electric Forces}
-The \textbf{electric field of a point charge} is given by
+The \textbf{electric field of a point charge} at $\vec{r}$ is given by
 \begin{equation}
-\vec E (\vec r_0)= \frac{kq}{r^2} = \frac{\vec{F}}{q},
+\vec E (\vec r)= \frac{kq}{r^3}\vec{r} = \frac{\vec{F}}{q},
 \end{equation}
-where $q$ denotes the charge of the point source (C) and $r$ denotes the radial distance of the point charge from the origin.
+where $q$ denotes the charge of the point source (C), $r$ denotes the radial distance of the point charge from the origin, and $\vec{r}$ represents the displacement vector of the point from the origin. We can also calculate the magnitude of the eletric field via
+\begin{equation}
+E = k\dfrac{\abs{q}}{r^2}.
+\end{equation}
 
 The \textbf{electric field of a group of charges} is the superposition of all the electric forces from all the charges. This can be approximated with volume charge density ($\rho$) via
 \begin{equation}
@@ -43,6 +49,14 @@ If one has a \textbf{thin wire} where all the charge resides, with linear charge
 \begin{equation}
 \vec{E}(\vec{r_o}) = \frac{1}{4\pi \epsilon_0} \int\frac{\lambda(\vec{r}) (\vec{r_0} - \vec{r})}{\abs{\vec{r_0} - \vec{r}}^3} \di l.
 \end{equation}
+
+\textbf{Example.} For a ring of total charge $Q$ on a circle of radius $a$, the circumference is $2\pi a$ and therefore the linear charge density is $\lambda = \frac{Q}{2\pi a}$. The electric field is therefore
+\begin{align}
+    \vec{E}(\vec{r_0}) &= \frac{1}{4\pi\epsilon_0} \int \frac{\vec{r_0} - \vec{r}}{\abs{\vec{r_0}-\vec{r}}^3} \lambda(\vec{r}) \di l  
+    = E_x \hat{i} \\
+    &= \frac{1}{4\pi\epsilon} \frac{Qx}{(x^2+a^2)^{3/2}}\hat{i} \\
+    &= \frac{Q \hat{i}}{4\pi\epsilon_0x^2} \quad \text{(For $x >> a$)}.
+\end{align}
 
 \section{Electric Field Lines}
 Electric field lines have tangent vectors parallel to the electric field and begin only on positive charges and end only on negative charges, though they can also go to infinity in either direction.
@@ -62,22 +76,27 @@ Using the volume charge density formula $\rho(\vec{r}) = \rho(x\vec{i} + y\vec{j
 
 The total force on an electric dipole is just the net force from an external electric field (the electric field from all the other charges that are not part of the electric dipole). This is true for the total torque.
 
-If the electric dipole moment $\vec{P}$ is not parallel to $\vec{E}$, then the electric field exerts a torque on the dipole which can be calculated using
+In a uniform electric field $\vec{E}$, the net force on a electric dipole is 0. However, if the electric dipole monent vector $\vec{p}$ is not parallel to $\vec{E}$, then a torque is exerted on the dipole that changes its angular momentum $\vec{L}$ by $\frac{\di \vec{L}}{\di t} = \vec{\tau}$. This vector torque is calculated via
 \begin{equation}
 \vec{\tau} = \vec{P} \times \vec{E},
 \end{equation}
-where $\vec{P}$ is the electric dipole moment, $\vec{E}$ is the electric field, and the direction of $\tau$ is perpendicular to both $\vec{P}$ and $\vec{E}$.
+where $\vec{P}$ is the electric dipole moment, $\vec{E}$ is the electric field, and the direction of $\tau$ is perpendicular to both $\vec{P}$ and $\vec{E}$. The magnitude of torque can also be found via
+\begin{equation}
+    \tau = pE\sin\phi,
+\end{equation}
+where $p$ is the magnitude of the electric dipole moment $\vec{p}$, $E$ is the magnitude of the electric field $\vec{E}$, and $\phi$ is the angle between $\vec p$ and $\vec E$.
 
 To calculate the potential energy of a dipole, we use
 \begin{equation}
-U = -\vec{P}\cdot \vec{E}.
+U = -\vec{p}\cdot \vec{E}.
 \end{equation}
+where $\vec p$ is the electric dipole moment and $\vec E$ is the electric field.
 
-To approximate the field of an electric dipole at $r>>d$ and using binomial expansion, we use
+We can approximate the field of an electric dipole at $r>>d$ with binomial expansion using
 \begin{equation}
-\vec{E}(\vec{r}) = \frac{3(\vec{p}\cdot \vec{r})(\vec{r} - \vec{p})}{4 \pi \epsilon_0 r^3},
+    \vec{E}(\vec{r}) \approx \frac{3(\vec{p}\cdot \hat{r})\hat{r} - \vec{p}}{4 \pi \epsilon_0 r^3},
 \end{equation}
-where $\vec{p} = p\cos(\theta)$ and $\epsilon_0 = \SI{8.854e-12}{\frac{C^2}{N \cdot m^2}}$.
+where $\vec{p}$ is the electric dipole moment, $\hat r$ is the unit vector in the direction or $\vec r$, and $\epsilon_0 = \SI{8.854e-12}{\frac{C^2}{N \cdot m^2}}$ (we probably don't need to know this formula for the exam tbh).
 
 
 %\begin{figure}[h]
