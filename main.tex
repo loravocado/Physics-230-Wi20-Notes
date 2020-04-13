@@ -165,11 +165,25 @@ Spherical symmetry
 \chapter{Capacitance and Dielectrics}
 \chapter{Current, Resistance, and Electromotive Force}
 \chapter{Direct-Current Circuits}
+Now we shall look in more detail at electrical circuits, which have a network of conductors and other devices connected together. Generally, the conductors can be idealized as thin wires, each of which carries a constant current in a stationary situation, and junctions where all the incoming currents get divided up into all the outgoing currents, with no charge of either sign building up at the junction. This was given by \textbf{Kirchhoff's junction rule} or \textbf{current law} or \textbf{first law: Sum of currents into a junction is zero}.
+
+Since in a stationary situation the electric force is a \textbf{conservative force}, with a \textbf{potential} (potential energy per charge, measured in the SI unit of $\SI{1}{V} = \SI{1}{J/C}$) that is defined up to one overall additive constant (so that the potential differences or voltages between two points are uniquely defined), we get \textbf{Kirchhoff's loop rule} or \textbf{voltage law} or \textbf{second law: the algebraic sum of potential differences around any closed loop is zero} (the algebraic sum means keeping track of signs. If we have a potential increase from $a$ to $b$, so $V_b - V_a = V^{ba} = -V^{ab} > 0$, the potential difference is positive; if $V_b < V_a$, $V_b - V_a = V^{ba} = -V^{ab} < 0$, this is negative).
+
+Now let us use Kirchhoff's rules to get the effective resistance $R_\text{eff}$ of $N$ resistors, of resistances $R_i$ with $i$ running from 1 to $N$, that is, $R_1, R_2, \ldots, R_N$, when the resistors are connected in \textbf{series} and in \textbf{parallel}. In series, we have 
+\begin{equation}
+R_\text{eff} = R_\text{eq} = \sum R_i = R_1 + R_2 + \cdots + R_N.
+\end{equation}
+In parallel, we have
+\begin{equation}
+\dfrac{1}{R_\text{eff}} = \dfrac{1}{R_\text{eq}} = \sum \dfrac{1}{R_i} = \dfrac{1}{R_1} + \dfrac{1}{R_2} + \cdots + \dfrac{1}{R_N}.
+\end{equation}
+
+A wire of cross section $A$ can be considered as a parallel arrangement of wires of cross sections adding up to $A$, which fits $\frac{1}{R} = \frac{A}{\rho L} = \frac{\sigma}{L}A$, adding up the $A$'s.
+
 \chapter{Magnetic Field and Magnetic Forces}
 \chapter{Sources of Magnetic Field}
 \chapter{Electromagnetic Induction}
 \chapter{Inductance}
-\chapter{Alternating Current}
 \chapter{Electromagnetic Waves}
 
 
