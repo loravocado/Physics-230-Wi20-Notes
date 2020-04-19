@@ -26,7 +26,7 @@ For an ammeter to be able to measure a larger range of currents, it may have a \
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.4\textwidth]{shunt.PNG}
+\includegraphics[width=0.4\textwidth]{Images/shunt.PNG}
 \end{figure}
 
 Since the voltage drop $V_{ab} = I_\text{fs}R_c = (I_a - I_\text{fs})R_\text{sh}$, so with $R_c$ fixed, we need $R_\text{sh} = \frac{I_\text{fs}R_c}{I_a - I_\text{fs}}$. Shunts of \textbf{decreasing} resistances $R_\text{sh}$ then allow an ammeter to measure increasing currents $I_a$.
@@ -35,7 +35,7 @@ A \textbf{voltmeter} is designed to measure the potential difference or voltage 
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\textwidth]{ammetervoltmeter.PNG}
+\includegraphics[width=0.8\textwidth]{Images/ammetervoltmeter.PNG}
 \end{figure}
 
 To be able to measure higher voltages tha nwhat would give full-scale deflection with just the coil resistance $R_c$ (which with the full-scale current $I_\text{fs}$ would be a voltage of $V_0 = I_\text{fs}R_c$), one can include in the voltmeter an additional resistance $R_s$ in \textbf{series} with the coil, so that then a full-scale deflection at current $I_\text{fs}$ would occur for a voltage of $V_v = I_\text{fs}(R_c + R_s) = V_0\bracks{ 1 + \frac{R_s}{R_c} }$. Resistors in a series of \textbf{increasing} resistances $R_s$ then allow a voltmeter to measure increasing voltages $V_v$.
@@ -73,7 +73,7 @@ We now consider a nonstationary (time-dependent) situation in which we have two 
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\textwidth]{switch.PNG}
+\includegraphics[width=0.7\textwidth]{Images/switch.PNG}
 \end{figure}
 
 Following the textbook, we shall use lowercase $q$, $i$, and $v$ for time-dependent charge ($+q$ on the left side of the capacitor of capacitance $C$, $-q$ on the right side), current $i(t) = \dfrac{\di q(t)}{\di t}$, and voltage. When the time dependence is slow compared with the speed of light, the electric force is very nearly conservative, $\vec{E} \approx -\vec{\nabla}V$, and Kirchhoff's loop law applies.
@@ -109,5 +109,5 @@ and
 In this case, both the charge $q(t)$ and the current $i(t)$ exponentially decrease toward zero with the same time constant $\tau = RC$, but their coefficients are different, so $\frac{i}{q} = -\frac{1}{RC} = -\frac{1}{\tau}$. $V_{ab} = iR = -\frac{Q_0}{C} e^{-t/RC}$, $V_{bc} = \frac{q}{C} = \frac{Q_0}{C} e^{-t/RC}$, $V_{ab} + V_{bc} = 0$.
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\textwidth]{charging.PNG}
+\includegraphics[width=0.7\textwidth]{Images/charging.PNG}
 \end{figure}
