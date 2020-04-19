@@ -1,7 +1,7 @@
 \documentclass[11pt, letterpaper, titlepage]{report}
 \usepackage[utf8]{inputenc}
 \usepackage{geometry}
-\usepackage{color,graphicx,overpic} 
+\usepackage{color,graphicx,overpic,wrapfig} 
 \usepackage{fancyhdr} % header/footer stuff
 \usepackage{amssymb} % math symbols
 \usepackage{mathtools} % more math stuff
@@ -97,67 +97,6 @@ Physics 230 Notes\\ % Document name
 
 \subfile{Chapters/chap1.tex}
 \section{Gauss's Law}
-Gauss's law states that the outward flux of the electric field through a closed surface is equal to the total charge inside the surface divided by the electric constant, $\epsilon_0$:
-\begin{equation}
-\Phi_E \equiv \oint \vec{E}\cdot \di \vec{A} = \frac{Q_{encl}}{\epsilon_0}.
-\end{equation}
-Let us examine what this equation means.
-
-We define the \textbf{mass flux} through a surface via
-\begin{equation}
-\Phi_M = \dfrac{\di M}{\di t},
-\end{equation}
-where $M$ is the mass and $t$ is time. The surface that we pick to evaluate the flow through is sometimes called a \textit{Gaussian surface}. We also always consider a \textit{stationary} situation, where things do not change with time at a given location. Flux is essentially anything measurable that can be transported (ex. mass, momentum, energy, heat, etc.). The \textbf{mass flux} through a surface can be calculated with a surface integral via
-\begin{equation}
-\Phi_M = \int \rho_m \vec{v} \cdot \di \vec{A},
-\end{equation}
-where $\rho_m$ is the mass density and $\vec{V}$ is the velocity. For a tilted surface, the mass flux can be calculated as
-\begin{equation}
-\Phi_M = \rho_M \vec{v} \cdot \vec{A}.
-\end{equation}
-When no mass is created or destroyed, we have that
-\begin{equation}
-\Phi_M = \frac{-\di M_{encl}}{\di t}.
-\end{equation}
-Note that for any \textit{closed surface}, the mass flux is always zero if the flow is stationary and if there is no creation of air, i.e.,
-\begin{equation}
-\Phi_M = 0.
-\end{equation} 
-This is analogous to Gauss's law for a closed surface with no charges inside, i.e.,
-\begin{equation}
-\Phi_E = \oint \vec{E} \cdot \di \vec{A} = \dfrac{Q_\text{encl}}{\epsilon_0} = 0.
-\end{equation}
-
-Mass creation is when:
-\begin{equation}
-\Phi_M + \frac{\di M}{\di t} > 0,
-\end{equation}
-and mass destruction is when
-\begin{equation}
-\Phi_M + \frac{\di M}{\di t} < 0.
-\end{equation}
-
-Conservation of charge states that
-\begin{equation}
-\Phi_Q + \frac{\di Q}{\di t} = 0.
-\end{equation}
-
-Second Law of thermodynamics states that
-\begin{equation}
-\Phi_S + \frac{\di S}{\di t} \geq 0.
-\end{equation}
-
-Gauss's law and spherical symmetry. Using coulomb's law for one charge
-\begin{equation}
-\vec{E} = \frac{q \vec{r}}{4 \pi \epsilon_0 r^2}
-\end{equation}
-
-For more than one charge, you need to do superposition
-
-Every region totally inside a conductor is neutral. Excess charge all lies on the surface (static). An interior surface of a conductor, surrounding a cavity, only has charge if there is non-zero charge inside the cavity; the two charges cancel
-
-Spherical symmetry 
-
 
 \subfile{Chapters/chap2.tex}
 
@@ -180,7 +119,8 @@ In parallel, we have
 
 A wire of cross section $A$ can be considered as a parallel arrangement of wires of cross sections adding up to $A$, which fits $\frac{1}{R} = \frac{A}{\rho L} = \frac{\sigma}{L}A$, adding up the $A$'s.
 
-\chapter{Magnetic Field and Magnetic Forces}
+\subfile{Chapters/chap7.tex}
+
 \chapter{Sources of Magnetic Field}
 \chapter{Electromagnetic Induction}
 \chapter{Inductance}
