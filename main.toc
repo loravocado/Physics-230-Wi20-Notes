@@ -15,6 +15,6 @@
 \contentsline {section}{\numberline {7.3}R-C Circuits}{15}{section.7.3}%
 \contentsline {chapter}{\numberline {8}Magnetic Field and Magnetic Forces}{18}{chapter.8}%
 \contentsline {chapter}{\numberline {9}Sources of Magnetic Field}{23}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Electromagnetic Induction}{24}{chapter.10}%
-\contentsline {chapter}{\numberline {11}Inductance}{25}{chapter.11}%
-\contentsline {chapter}{\numberline {12}Electromagnetic Waves}{26}{chapter.12}%
+\contentsline {chapter}{\numberline {10}Electromagnetic Induction}{26}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Inductance}{27}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Electromagnetic Waves}{28}{chapter.12}%

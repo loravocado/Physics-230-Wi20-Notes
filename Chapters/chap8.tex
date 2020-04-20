@@ -1,2 +1,61 @@
 \chapter{Sources of Magnetic Field}
 
+We have seen that the electromagnetic force of sturctureless point particle of charge $q$ is found by using the Lorentz force equation 
+\begin{equation}
+•\boxed{\vec{F} = q(\vec{E} + \vec{V} \times \vec{B})}.
+\end{equation} 
+We have also learned Gauss's law for $\vec{E}$,
+\begin{equation}
+\boxed{\oint \vec{E} \cdot \di \vec{A} = \frac{Q_{encl}}{\varepsilon_0}},
+\end{equation}
+and Gauss's law for $\vec{B}$
+\begin{equation}
+\boxed{\oint \vec{B} \cdot \di \vec{A} = 0},
+\end{equation}
+assuming no magnetic monopoles (none seen in nature and probably requiring too much energy to be produced by humans). These three laws are exact and have exactly the same form in special relativity (though they can be written slightly more elegantly in 4-dimensional realtivistic notation, such as $m \frac{\di ^2 x^\mu}{\di \tau^2})$. We also learned an approcimate relation when we ignored relativistic effects such as electromagnetic waves: 
+\begin{equation}
+\boxed{\oint\vec{E} \cdot \di l = 0} \leftrightarrow \exists \text{ potential } V \text{ such that } \boxed{\vec{E} = - \Delta V}.
+\end{equation}
+
+The exact law $\oint \vec{E} \cdot \di \vec{A} = \frac{Q_{encl}}{\varepsilon+0}$ and the nonrelativistic law $\oint \vec{E} \cdot \di l = 0$ allows one to deduce the nonrelativistic Coulomb's law (the approximation for $v$ << $c$) given first for the potential $V$ and then for the electric field $\vec{E}$ ato location $\vec{r}_0$:
+\begin{equation}
+V(\vec{r}_0) = \frac{U(\vec{r_0})}{q_0} = \frac{1}{4\pi\varepsilon_0} \int \frac{\lambda(\vec{r})(\vec{r}_0 - \vec{r})}{\abs{\vec{r}_0 - \vec{r}}^3} \di l,
+\end{equation}
+where $q_i$ is an individual charge at location $\vec{r}_i$, $\di q (\vec{r})$ is an infinitesimal elemnt of charge $\rho(\vec{r})$ is a volume charge density, $\sigma(\vec{r})$ a surface charge density, $sigma(\vec{r})$ a surface charge density, $\lambda(\vec{r})$ linear charge density.
+
+Just as we need two laws for the electric field, $\oint \vec{E} \cdot \di \vec{A} = \frac{Q_{encl}}{\varepsilon_0}$ and $\vec{E} \cdot \di \vec{l} = 0$ (this being a nonrelativistic approximation) to get Coulomb's law for how nonrelaticistic charges produce an electric field, we also need a second law beside $\oint \vec{B} \cdot \di \vec{A} = 0$ for how to get the magnetic field in a nonrelativistic situation. The form most nearly similar to $\oint \vec{E} \cdot \di \vec{l} = 0$ (conservative nature of the electric forve in the nonrelativistic approximation of no electromagnetic waves carrying momentum) is \textbf{Ampere's Law},
+\begin{equation}
+\boxed{\oint\vec{B} \cdot \di \vec{l} = \mu_0 I = \mu_0 \int \vec{J} \cdot \di \vec{A}}
+\end{equation},
+where $I = \int \vec{J} \di \vec{A}$ is the current through any open surface with edge the loop around which $\oint \vec{B} \cdot \di \vec{l}$ is calculated (and with $\di \vec{A}$ up as seen from above when $\di \vec{l}$ goes counterclockwise around the loop).
+
+Ampere's Law actually works only in a stationary situation in which charge is not building up anywhere, so $\oint \vec{J} \cdot \di \vec{A} = -\frac{\di Q_{encl}}{\di t} = 0$ and so that then $\int \vec{J} \di \vec{A}$ is independent of the open surface bounded by the loop around which $\oint \vec{B} \cdot \di \vec{l}$ is taken. When charges do build up, what is 0 by charge conservation is $0 = \oint \vec{J} \cdot \di \vec{A} + \frac{\di Q_{encl}}{\di t} = \oint \vec{J} \cdot \di  \vec{A} + \frac{\di}{\di t} \varepsilon_0 \oint \vec{E} \cdot \di \vec{A} = \oint \left( \vec{J} + \varepsilon_0 \frac{\di \vec{E}}{\di t} \right) \cdot \di \vec{A}$ so James Clerk Maxwell in his 1865 completion of the equations of electromagnetism brilliantly modified Ampere's Law to become
+\begin{equation}
+\boxed{\oint \vec{B} \cdot \di \vec{l} = \mu_0 \int \left( \vec{J} + \varepsilon_0 \frac{\di \vec{E}}{\di t} \right)\cdot \di \vec{A}}
+\end{equation} 
+Later we shall learn Faraday's modification of $\oint \vec{E} \cdot \di \vec{l} = 0$
+\begin{equation}
+\boxed{\oint \vec{E} \cdot \di \cdot \di \vec{l} = - \int \frac{\di B}{\di t} \cdot \di \vec{A}}
+\end{equation}
+These plus the following two equations
+\begin{equation}
+\boxed{\oint \vec{E} \cdot \di \vec{A} = \frac{Q_{encl}}{\varepsilon_0}} \text{   and   } \boxed{\oint \vec{B} \cdot \di \vec{A} = 0} 
+\end{equation}
+are \textbf{Maxwell's equations for EM}
+
+From Maxwell's equatios and appropriate boundary conditions (such as no electromagnetic waves coming from the distant past, which are really approximately valid for waves of frequency high compared with the microwave frequencies of the cosmic microwave background of CMB radiation that is highly thermal, with a present temperature of 2.7255(6)K [k - kelvin, degrees above absolute zero] that is a hundred times colder than the freezing point of water at $\ang{0}C = \SI{273.15}{K}$ and which gives an energy density $100^4 = 100000000 = 10^8$ times less than thermal radiation at $\ang{0}C$), one can get the electromagnetic fields produced by charges either at rest or in motion. For charges at rest, one only gets electric fields, by Coulomb's law.
+
+To get magnetic fields from structureless point charges, one needs charges in motion. (One can also get magnetic fields from particles with both charge and spin angular momentum even if they are believed to be point particles such as electrons and quarks). Analogous to Coulomb's law
+$\vec{E}(\vec{r}_0) = \frac{1}{4 \pi \varepsilon_0} \sum_{i = 1}^{N} \frac{q_i(\vec{r}_0 - \vec{r}_i)}{\abs{\vec{r}_0 - \vec{r}_i)}^3}$,
+\begin{equation}
+ \boxed{\vec{B}(\vec{r}_0) = \frac{\mu_0}{4 \pi} \sum_{i = 1}^{N} \frac{q_i \vec{v}_1 \times (\vec{r}_0 - \vec{r}_i)}{\abs{\vec{r}_0 - \vec{r}_i}^3}}
+ \end{equation} 
+is the nonrelativistic approximation ($\abs{\vec{v}_i} << c$) for the magnetic field for a collection of particles of charge $q_i$ and velocity $\vec{v}_i$ at locations $\vec{r}_i$ (where $\vec{r}_0$ is the location of the field point). For a single moving charge, if we define the unit vector $\vec{r} = \frac{(\vec{r}_0 - \vec{r})}{\abs{\vec{r}_0 - \vec{r}}}$ that points from the source point $\vec{r}$to the field point $\vec{r}_0$ at distance $r = \abs{\vec{r}_0 - \vec{r}}$, $\vec{B} = \frac{\mu_0}{4\pi} \frac{q\vec{v} \times \hat{r}}{r^2}$, an inverse-square law like Coulomb's.
+
+just as $\varepsilon_0$ is the \textbf{electric constant} (also called the vacuum permittivity, the permittivity of free space, the distributed capacitance of the vacuum, or simply epsilon nought or epsilon zero), so $\mu_0$ is the \textbf{magnetic constant} (also called the vacuum permeability, the permeability of free space, the permeability of the vacuum. or simply mu nought or mu zero).
+
+What are the units? The SI unit for $B$ is the tesla (T), with $\vec{F} = q \vec{v} \times \vec{B}$ giving $\SI{1}{N} = \SI{1}{\frac{kg \cdot m}{s^2}} = (\SI{1}{C})(\SI{1}{\frac{m}{s}})(\SI{1}{T}) = \SI{1}{T\frac{C \cdot m}{s}}$ or $\SI{1}{T} = \SI{1}{\frac{kg}{C \cdot s}}$. Then $\vec{B} = \frac{\mu_0}{4 \pi}\frac{q \vec{v} \times \hat{r}}{r^2}$ implies that $\mu_0$ has units of $\SI{}{\frac{r^2}{qv}B}$ or $\SI{}{\frac{m^2}{Cms^-1}T} = \SI{}{\frac{ms}{C} \frac{kg}{C \cdot s} = \frac{kg \cdot m}{C^2}}$
+
+In November 2018, the 26th General Conference on Weights and Measures (CGPM) approved a redefinition of SI base units to come into force 2019 May 20:
+1 second = 9192631770 period of the unperturbed ground-state hyperfine transition frequency of the caesium 133 atom (old). 1 metre = distance light travels in $\frac{1 \text{s}}{299792458}$ 1 kilogram is defined so $h =\SI{6.62607015e-34}{\frac{kg \cdot m}{s}}$ an ampere = $\SI{1}{\frac{C}{s}}$ with $e = \SI{1.602176634e-19}{C}$. 1 kelvin = $\SI{1}{\frac{J}{k}}$, $k = \SI{1.380649e-23}{\frac{kg \cdot m^2}{s^2 K}}$(Boltemann). 1 mole = $\SI{6.02214076e23}$ elementary entities. 1 candela (cd) is defined so that the luminous efficacy of monochromatic radiation of frequency $\SI{540e12}{Hz}$ is $\SI{683}{\frac{cd \cdot sr \cdot s^3}{kg m^3}}$.
+Therefore, sa of 2019 May 20, $\frac{\mu_0}{4\pi}$ is not defined to be exactly $\SI{10e-7}{\frac{kg \cdot m}{C^2}} = \SI{10e-7}{\frac{N}{A^2}}$ ut will be determined by experiment, using the new definition of the coulomb in terms of the elementary charge $e$. 
