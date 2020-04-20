@@ -1,20 +1,3 @@
-\contentsline {chapter}{\numberline {1}Electric Charge and Electric Field}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Electric Charge}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Electric Field and Electric Forces}{2}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Electric Field Lines}{3}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Electric Dipoles}{3}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Gauss's Law}{4}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Electric Potential}{5}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Electric Potential}{6}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Capacitance and Dielectrics}{7}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Current, Resistance, and Electromotive Force}{8}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Direct-Current Circuits}{9}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Direct-Current Circuits}{10}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Electrical Measuring Instruments}{11}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Ohmmeters}{14}{section.7.2}%
-\contentsline {section}{\numberline {7.3}R-C Circuits}{15}{section.7.3}%
-\contentsline {chapter}{\numberline {8}Magnetic Field and Magnetic Forces}{18}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Sources of Magnetic Field}{23}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Electromagnetic Induction}{26}{chapter.10}%
-\contentsline {chapter}{\numberline {11}Inductance}{27}{chapter.11}%
-\contentsline {chapter}{\numberline {12}Electromagnetic Waves}{28}{chapter.12}%
+\contentsline {chapter}{\numberline {1}Magnetic Field and Magnetic Forces}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Sources of Magnetic Field}{6}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Electromagnetic Induction}{9}{chapter.3}%
