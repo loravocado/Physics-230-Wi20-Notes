@@ -111,3 +111,31 @@ In this case, both the charge $q(t)$ and the current $i(t)$ exponentially decrea
 \centering
 \includegraphics[width=0.7\textwidth]{Images/charging.PNG}
 \end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.4\textwidth]{Images/closedcct.PNG}
+\end{figure}
+
+In the figure above, when the capacitor is charging, the source of emf is providing power $P = \varepsilon i = \frac{\varepsilon^2}{R}e^{-t/RC}$. The rate at which electrical power is dissipated in the resistor is $V_{ab}i = i^2R = \bracks{\frac{\varepsilon}{R}e^{-t/RC}}^2 R = \frac{\varepsilon^2}{R}e^{-2t/RC}$, initially the same as $P$, but exponentially decaying at twice the rate. The rate at which energy is being stored in the capacitor is $iv_{bc} = i\frac{q}{C} = \frac{\varepsilon}{R}e^{-t/RC}\frac{C\varepsilon}{C}\bracks{1-e^{-t/RC}} = \frac{\varepsilon^2}{R}\bracks{ e^{-t/RC} - e^{-2t/RC} }$. Thus the power provided, $P$, does equal the power dissipated in the resistor, $i^2R$, plus the power being stored in the capacitor, $i\frac{q}{C}$: $\varepsilon i = i^2R + i\frac{q}{C}$, which is $i$ times $\varepsilon = iR + \frac{q}{C} = R\frac{\di q}{\di t} + \frac{q}{C}$. The total energy supplied by the emf is $\varepsilon Q_f$, of which $\frac{1}{2}\varepsilon Q_f$ goes into the capacitor and an equal amount $\frac{1}{2} \varepsilon Q_f$ gets dissipated in the resistor.
+
+\section{Power Distribution System}
+The total power delivered $P = IV$. However, the losses in the transmission lines are $I^2R = \pfrac{P}{V}^2R = \frac{P^2R}{V^2}$, so to reduce that, electricity is sent long distances at high voltage. But then it needs to be reduced to safe voltages in houses (usually around $\SI{120}{V}$ rms in North America, around $\SI{240}{V}$ in Europe). It is usually simpler to transform voltages by transformers if one uses AC (alternating current).
+
+Inside a house, most outlets have two terminals, one at $\SI{120}{V}$ rms oscillating, and one grounded or connected to the earth. Often now there is a second ground terminal for extra safety. One connects devices across the terminals so that they are in parallel, all with the same voltage, but with parallel currents going through the different devices. (Christmas tree lights in a string used to be in series, with the nuisance that if one burned out, the whole string of lights went out.)
+
+\section{Summary of Direct-Current Circuits}
+\begin{enumerate}
+\item Kirchhoff's junction rule of current law (conservation of charge in a stationary situation): the algebraic sum of currents into a junction is 0.
+\item Kirchhoff's loop rule or voltage law or second law (conservative electric forces, $\vec{E} = -\vec{\nabla}V$): the algebraic sum of potential differences around any closed loop is zero.
+\item Resistances in series add: $R_\text{eq} = \sum_{i=1}^{N} R_i$.
+\item Reciprocals of resistances in parallel add: $\frac{1}{R_\text{eq}} = \sum_{i=0}^{N} \frac{1}{R_i}$. 
+\item In a d'Arsonval galvanometer, deflection is proportional to current ($I$).
+\item With a low resistance (perhaps with a shunt resistor), this gives an ammeter to measure $I$.
+\item With a high resistance (perhaps with a choice of resistances in series), this gives a voltmeter.
+\item A device containing a galvanometer and a source of emf can be an ohmmeter, measuring resistance.
+\item A potentiometer has a variable resistor also and can measure an emf without drawing current.
+\item An R-C circuit has a resistor and capacitor in series, and also an emf when charging, so $q = C\varepsilon\bracks{ 1-e^{-t/RC} }$, $i = \frac{\varepsilon}{R}e^{-t/RC}$, time constant $\tau = RC$.
+\item After being charged, when the emf is removed, $q = Q_0 e^{-t/RC}$, $i = -\frac{Q_0}{RC}e^{-t/RC}$ when discharging.
+\item Power is sent large distances at high voltage $V$, low $I^2R$.
+\end{enumerate}

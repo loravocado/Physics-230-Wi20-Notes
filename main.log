@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.10)  19 APR 2020 15:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.10)  20 APR 2020 13:07
 entering extended mode
 **./main.tex
 (main.tex
@@ -639,76 +639,85 @@ bx/n/10.95 ammeters\OT1/cmr/m/n/10.95 ), po-ten-tial dif-fer-ence or volt-age (
  []
 
 [11]
-<Images/shunt.PNG, id=192, 266.49562pt x 73.02281pt>
+<Images/shunt.PNG, id=202, 266.49562pt x 73.02281pt>
 File: Images/shunt.PNG Graphic file (type png)
 <use Images/shunt.PNG>
 Package pdftex.def Info: Images/shunt.PNG  used on input line 29.
 (pdftex.def)             Requested size: 197.91422pt x 54.23212pt.
-<Images/ammetervoltmeter.PNG, id=194, 481.8pt x 179.16937pt>
+<Images/ammetervoltmeter.PNG, id=204, 481.8pt x 179.16937pt>
 File: Images/ammetervoltmeter.PNG Graphic file (type png)
 <use Images/ammetervoltmeter.PNG>
 Package pdftex.def Info: Images/ammetervoltmeter.PNG  used on input line 38.
 (pdftex.def)             Requested size: 395.83598pt x 147.20415pt.
  [12 <./Images/shunt.PNG> <./Images/ammetervoltmeter.PNG>] [13] [14]
-<Images/switch.PNG, id=210, 526.96875pt x 167.12437pt>
+<Images/switch.PNG, id=220, 526.96875pt x 167.12437pt>
 File: Images/switch.PNG Graphic file (type png)
 <use Images/switch.PNG>
 Package pdftex.def Info: Images/switch.PNG  used on input line 76.
 (pdftex.def)             Requested size: 346.35365pt x 109.8485pt.
 
 [15 <./Images/switch.PNG>]
-<Images/charging.PNG, id=218, 578.91281pt x 230.36063pt>
+<Images/charging.PNG, id=228, 578.91281pt x 230.36063pt>
 File: Images/charging.PNG Graphic file (type png)
 <use Images/charging.PNG>
 Package pdftex.def Info: Images/charging.PNG  used on input line 112.
 (pdftex.def)             Requested size: 346.35365pt x 137.82024pt.
-)
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(Chapters/chap7.tex [16] [17 <./Images/charging.PNG>]
+<Images/closedcct.PNG, id=229, 285.31593pt x 127.97812pt>
+File: Images/closedcct.PNG Graphic file (type png)
+<use Images/closedcct.PNG>
+Package pdftex.def Info: Images/closedcct.PNG  used on input line 117.
+(pdftex.def)             Requested size: 197.91422pt x 88.77365pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16] [17 <./Images/charging.PNG> <./Images/closedcct.PNG>]) (Chapters/chap7.tex
+[18]
 Chapter 8.
-<Images/chap7_1.png, id=235, 247.92625pt x 105.39375pt>
+<Images/chap7_1.png, id=263, 247.92625pt x 105.39375pt>
 File: Images/chap7_1.png Graphic file (type png)
 <use Images/chap7_1.png>
 Package pdftex.def Info: Images/chap7_1.png  used on input line 12.
 (pdftex.def)             Requested size: 142.26378pt x 60.4771pt.
-[18
+[19
 
- <./Images/chap7_1.png (PNG copy)>] [19] [20] [21]) [22]
+ <./Images/chap7_1.png (PNG copy)>] [20] [21] [22] [23] [24] [25]) [26]
 Chapter 9.
-[23
+[27
 
 ]
 Chapter 10.
-[24
+[28
 
 ]
 Chapter 11.
-[25
+[29
 
 ]
 Chapter 12.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 115.
-[26
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
+[30
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7D2022E79D6C32F3E7081FF69CAB9610;1253.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
+(rerunfilecheck)             Checksum: 32C7906EF3705E6E6057C15D7C9B2BAD;1406.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 10737 strings out of 481531
- 200345 string characters out of 2913527
- 459333 words of memory out of 3000000
- 25698 multiletter control sequences out of 15000+200000
+ 10765 strings out of 481531
+ 200656 string characters out of 2913527
+ 462333 words of memory out of 3000000
+ 25705 multiletter control sequences out of 15000+200000
  544260 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,13n,50p,1708b,975s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,19n,50p,3113b,975s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/BDD/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmbx10.pfb><C:/Users/BDD/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmbx12.pfb><C:/Users/BDD/AppData/Local/Programs/MiKTeX 2.9/fonts/t
@@ -722,10 +731,11 @@ ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/BDD
 nts/cm/cmr6.pfb><C:/Users/BDD/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmr8.pfb><C:/Users/BDD/AppData/Local/Programs/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/BDD/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (29 pages, 411316 bytes).
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/BDD/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (33 pages, 470197 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
- 82 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 386 PDF objects out of 1000 (max. 8388607)
+ 102 named destinations out of 1000 (max. 500000)
+ 207 words of extra memory for PDF output out of 10000 (max. 10000000)
 
