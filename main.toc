@@ -13,4 +13,6 @@
 \contentsline {chapter}{\numberline {4}Electromagnetic Induction}{25}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Summary of Electromagnetic Induction}{25}{section.4.1}%
 \contentsline {chapter}{\numberline {5}Inductance}{27}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Electromagnetic Waves}{28}{chapter.6}%
+\contentsline {section}{\numberline {5.1}Summary of Inductance}{27}{section.5.1}%
+\contentsline {chapter}{\numberline {6}Electromagnetic Waves}{29}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Summary of Electromagnetic Waves}{29}{section.6.1}%

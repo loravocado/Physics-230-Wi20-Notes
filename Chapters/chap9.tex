@@ -1,2 +1,33 @@
 \chapter{Electromagnetic Induction}
 
+\section{Summary of Electromagnetic Induction}
+\begin{itemize}
+	\item Faraday's law:
+	\begin{equation}
+	\varepsilon = -\frac{\di \Phi_B}{\di t} 
+	\end{equation}
+	for the induced emf in a closed loop from the time rate of charge of magnetic flux through the loop.
+	
+	\item Lenz's law: The sign in Faraday's law is such that the induced current tends to oppose the change in flux that produced it (stability).
+	
+	\item If the conductor loop moves in a static magnetic field,
+	\begin{equation}
+	\varepsilon = \oint (\vec{v} \times \Bv) \cdot \di \vec{l} = -\dfrac{\di \Phi_B}{\di t} = -\dfrac{\di}{\di t} \oint \Bv\cdot\di\vec{A} = -\oint\Bv\cdot\dfrac{\di \vec{A}}{\di t} 
+	\end{equation}
+	is a motional emf.
+	
+	\item If $\frac{\di \Bv}{\di t} \neq 0$, $\oint \Ev \cdot \di \vec{l} = -\oint\frac{\di \Bv}{\di t} \cdot \di \vec{A} \neq 0$ makes the electric field nonconservative, so $\Ev \neq -\vec{\nabla} V$.
+	
+	\item Ampere's law as corrected by Maxwell includes a displacement current $i_D = \varepsilon_0 \frac{\di \Phi_E}{\di t}$: $\oint \Bv \cdot \di\vec{l} = \mu_0 \int \bracks{\vec{J} + \varepsilon_0 \frac{\di \Ev}{\di t}} \cdot \di \vec{A} = \mu_0(i_c + i_D)_\text{encl}$.
+	
+	\item The other 3 Maxwell equations are
+	\begin{align}
+	&\oint \Ev \cdot \di \vec{A} = \dfrac{Q_\text{encl}}{\varepsilon_0}, \\
+	&\oint \Bv \cdot \di \vec{A} = 0, \\
+	&\oint \Ev \cdot \di \vec{l} = -\dfrac{\di \Phi_B}{\di t}.
+	\end{align}
+	
+	\item When $Q=0$, $J=0$, symmetric under $\Ev \to c\Bv$, $\Bv \to -\frac{1}{c}\Ev$.
+	
+	\item In 4D relativistic notation, the 4 Maxwell equations can be reduced to $\di F = 0$ and $\delta F = J$, or, using $F = \di A$ to solve $\di F = 0$, $\delta \di A = J$.
+\end{itemize}

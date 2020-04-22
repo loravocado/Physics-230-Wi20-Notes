@@ -1,2 +1,22 @@
 \chapter{Inductance}
 
+\section{Summary of Inductance}
+\begin{itemize}
+	\item If we have two nearby coils with currents $i_1$ and $i_2$ then current $i_1$ induces $\varepsilon_2 = -M_{21} \frac{\di i_1}{\di t}$ in the 2nd, and current $i_2$ induces $\varepsilon_1 = -M_{12} \frac{\di i_2}{\di t}$ in the 1st. $M_{12} = M_{21}$, so we can just call the mutual inductance $M$.
+	
+	\item In a single circuit with self-inductance $L$, $\varepsilon = -L\frac{\di i}{\di t}$. $M$ and $L$ have the SI unit 1 henry = $\SI{1}{H} = \SI{1}{\frac{Wb}{A}} = \SI{1}{\frac{V}{A/s}} = \SI{1}{\frac{Vs}{A}} = \SI{1}{\Omega s} = \SI{1}{\frac{J}{A^2}} = \SI{1}{\frac{kgm^2}{s^2A^2}} = \SI{1}{\frac{kgm^2}{C^2}}$.
+	
+	\item $\oint \Ev \cdot \di \vec{l} = -L \frac{\di i}{\di t} \neq 0$, so the electric field is \textbf{nonconservative}.
+	
+	\item The energy in an inductor with current $I$: $U = \frac{1}{2} L I^2$.
+	
+	\item This energy is in the magnetic field, with energy density $u = \frac{B^2}{2\mu_0}$, or $u = \frac{B^2}{2\mu}$ if we include magnetic material.
+	
+	\item Electric and magnetic energy densities are equal for plane electromagnetic waves, which have $E = cB$, $\Ev$ and $\Bv$ perpendicular, and wave direction parallel to $\Ev \times \Bv$.
+	
+	\item An R-L circuit has $i = \frac{\varepsilon}{R}\bracks{ 1 - e^{-t/\tau} }$ with time constant $\tau = \frac{L}{R}$ when charging, or $i = I_0e^{-t/\tau}$ when discharging.
+	
+	\item An L-C circuit has $q = Q\cos(\omega t + \phi)$, $i = \frac{\di q}{\di t} = -Q\omega\sin(\omega t + \phi)$ with $\omega = \sqrt{ \frac{1}{LC} }$, conserved energy, and no damping.
+	
+	\item An L-R-C circuit has $q = \text{sum of damped exponentials if overdamped}$ ($R^2 > 4L/C$), $q = e^{-(R/2L)t}(At+B)$ if critically damped ($R^2 = 4L/C$), and $q = Ae^{-(R/2L)t}\cos\bracks{ \sqrt{\frac{1}{LC} - \frac{R^2}{4L^2}}t + \phi }$ if underdamped.
+\end{itemize}

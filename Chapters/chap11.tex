@@ -1,2 +1,54 @@
-\chapter{Alternating Current}
+\chapter{Electromagnetic Waves}
 
+\section{Summary of Electromagnetic Waves}
+\begin{itemize}
+	\item We had learned Maxwell's equations as integrals:
+	\begin{align}
+	&\oint \Ev \cdot \di \vec{A} = \dfrac{Q_\text{encl}}{\varepsilon} = \dfrac{1}{\varepsilon_0} \int \rho \di V, \\
+	&\oint \Bv \cdot \di\vec{A} = 0, \\
+	&\oint \Ev \cdot \di \vec{l} = -\dfrac{\di \Phi_B}{\di t} = -\dfrac{\di}{\di t} \int \Bv \cdot \di \Av, \\
+	&\oint \Bv \cdot \di\vec{l} = \mu_0 \int \bracks{ \vec{J} + \varepsilon_0 \dfrac{\di \Ev}{\di t} } \cdot \di \Av.
+	\end{align}
+	
+	\item Divergence theorem $\oint \vec{V} \cdot \di \Av = \int \bracks{ \Nabv \cdot \vec{V} } \di V$ and Kelvin-Stokes theorem $\oint \vec{V} \cdot \di \vec{l} = \int \bracks{ \Nabv \times \vec{V} } \cdot \di \Av$ give Maxwell's equations as partial differential equations:
+	\begin{align}
+	& \Nabv \cdot \Ev = \frac{\rho}{\varepsilon_0}, \\
+	& \Nabv \cdot \Bv = 0, \\
+	& \Nabv \times \Ev = -\frac{\partial B}{\partial t}, \\
+	& \Nabv \times \Bv = \mu_0 \bracks{ \vec{J} + \varepsilon_0 \dfrac{\partial \Ev}{\partial t} }.
+	\end{align}
+	
+	\item A general plane wave solution in empty space, $\vv = cR$: $\Ev = \hat{i} E_x(u) + \hat{j} E_y(u)$, $\Bv = -\frac{1}{c} \hat{i} E_y(u) + \frac{1}{c}\hat{j}E_x(u)$ in terms of two arbitrary functions of $u = ct-z$, $c = \frac{1}{\sqrt{\varepsilon_0\mu_0}}$.
+	
+	\item $\Ev = \vec{a} E_a(u) + \vec{b} E_b(u)$, $\Bv = -\frac{1}{c}\vec{a} E_b(u) +\frac{1}{c}\vec{b}E_a(u)$ for $\vv = cR$, $u = ct - \vec{n}\cdot\vec{r}$, $\vec{a}\times\vec{b} = \vec{n}$, $\vec{b}\times\vec{n} = \vec{a}$, $\vec{n}\times\vec{a} = \vec{b}$ (orthonormal).
+	
+	\item A plane wave is transverse ($\Ev \bot \vec{n}$, $\Bv \bot \vec{n}$), and $\Ev \bot \Bv$.
+	
+	\item For fixed frequency $\omega$, $\Ev = \vec{a}E_1\cos(\omega t - \frac{\omega}{c}\vec{n}\cdot\vec{r}+\phi_1) + \vec{b}E_2\cos(\omega t - \frac{\omega}{c}\vec{n}\cdot\vec{r}+\phi_2)$ generally sweeps out an ellipse (elliptical polarization) in the plane $\bot \vec{n}$ (or a line for plane polarization, or a circle for circular polarization), as does $\Bv = \frac{1}{c}n\times\Ev$.
+	
+	\item Most light is a mixture of different frequencies and polarizations, unpolarized if not favoring any.
+	
+	\item Light scattered or reflected is often partially polarized.
+	
+	\item The energy density in an electromagnetic field is $u = \frac{1}{2}\varepsilon_0 E^2 + \frac{1}{2\mu_0}B^2$. For a plane wave, each of the two terms are equal, so $u = \varepsilon_0 E^2$.
+	
+	\item The energy flux in general electromagnetic field is the Poynting vector $\vec{S} = \frac{1}{\mu_0}\Ev\times\Bv$. For a plane wave, $\vec{S} = u\vv = uc\vec{n}$.
+	
+	\item For a plane wave of fixed frequency, time average $<\vec{S}> = \vec{S_{av}} = \frac{1}{2\mu_0c}\bracks{ E_\text{max}^2 + E_\text{min}^2 }\vec{n} = \frac{1}{2}\varepsilon_0c\bracks{ E_\text{max}^2 + E_\text{min}^2 }\vec{n}$.
+	
+	\item A particle of energy $\varepsilon$ and velocity $\vv$ has momentum $\vec{p} = \frac{1}{c^2}\varepsilon\vv$. Photon: $\varepsilon = \hbar\omega$, $\vec{p} = \frac{\hbar\omega}{c}\vec{n}$.
+	
+	\item Momentum density of a plane wave: $\frac{\di \vec{p}}{\di V} = \frac{1}{c^2}\vec{S}$.
+	
+	\item Absorption radiation pressure for a plane wave: $p_\text{rad} = u = \frac{S}{c}$, $<p_\text{rad}> = \frac{1}{\mu_0 c} <E^2>$.
+	
+	\item For an isotropic distribution, $p_\text{rad} = \frac{1}{3}i$.
+	
+	\item Sunlight: $S_O = \SI{1361}{W/m^2}$, $E_\text{rms} = <E^2>^{0.5} = \SI{716}{V/m}$, $B_\text{rms} = \SI{2.388e-6}{T}$, $u = \SI{4.540e-6}{J/m^3}$, $p_\text{rad} = u = \SI{4.540e-6}{N/m^2} = \SI{4.540e-6}{Pa}$, solar luminosity $L_O = 4\pi r^2S_O = \SI{3.828e26}{W}$.
+	
+	\item Electromagnetic waves in matter: $E = vB$, $v = \frac{1}{\sqrt{\varepsilon\mu}}$.
+	
+	\item Standing waves of reflected plane waves have nodal plants $z = \pi n/k$ for $\Ev$, $z = (\pi/k)(n+0.5) for \Bv$. $\Ev$ and $\Bv$ each vanish everywhere at different times.
+	
+	\item Two infinite parallel perfectly conducting plates with separation $L$: $k = k_n = \pi n/L$, $\omega = \omega_A = ck_n = \pi c n/L$, $\lambda = \lambda_n = \frac{2\pi}{k_n} = \frac{2L}{n}$, $f_n = \frac{\omega_n}{2\pi} = \frac{cn}{2L} = \frac{c}{\lambda_n}$, period $T_n = \frac{1}{f_n} = \frac{2L}{cn}$.
+\end{itemize}
