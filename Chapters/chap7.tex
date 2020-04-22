@@ -105,3 +105,54 @@ If $R << \frac{mc\cos\theta}{qB}$, this reduces to
 the cyclotron frequency that to a very good approximation is independent of $R$ for $R$ not too big for given $q$, $B$, $m$, and $\theta$.
 
 Take an electron of $m = \SI{9.10938356e-31}{kg}$, charge magnitude (minus the charge that is -e) that is now defined as $e = \SI{1.602176634e-19}{C}$, $c = \SI{299792458}{\frac{m}{s}}$, $B = \SI{1200}{T}$ record produced by the University of Tokyo in 2018. $\frac{R}{\cos\theta} = \frac{mc}{qB} = \frac{(\SI{9.10938356e-31}{kg})(\SI{299792458}{\frac{m}{s}})}{(\SI{1.602176634e-19}{C})(\SI{1200}{T})} = \SI{1.420424e-6}{m}$ (if exactly $SI{1200}{T}$) $= 1.4$ microns, so with that field even very small $R$ gives relativistic effects, but $B\downarrow$ makes $R\uparrow$.
+
+\section{Velocity Selector}
+
+If one has a particle beam (say from a heated cathode or radioactive source) that has a range of speeds (and hence of energies), one often desires to get the beam to have a narrow range of speeds and energies by a \textbf{velocity selector} that deflects particles outside that range away from the beam allowed path (that is, so the deflected particles hit some boundary and are removed). This has a magnetic field $\Bv$ roughly perpendicular to the allowed path, and an electric field chosen to be $\Ev = -\vec{v_0} \times \Bv$, where $\vec{v_0}$ is the desired velocity of the particles that get through the allowed beam path, so $\Fv = q(\Ev + \vv \times \Bv) = q(-\vec{v_0}\times\Bv + \vv \times \Bv) = q(\vv - \vec{v_0}) \times \Bv$, nonzero unless $\vv - \vec{v_0}$ is parallel to $\Bv$, but then if $\vv - \vec{v_0} \neq 0$, the particle would leave the path.
+
+In 1897 Joseph John (J.J.) Thomson (1856-1940, Nobel Prize 1906, knighted 1908 to become ``Sir,'' Master of Trinity College 1918-1940) accelerated cathode rays by a measured electric potential difference (voltage) $V$ and then used perpendicular $\Ev$ and $\Bv$ fields, also perpendicular to the path, to measure the velocity. If the rays consisted of particles of charge magnitude $e$ and mass $m$ that were nearly at rest before being accelerated by the voltage $V$, after the acceleration they would have kinetic energy $\frac{1}{2}mv^2 = eV$, so $v = \sqrt{\frac{2eV}{m}}$. Then with $\Ev = -\vec{v_0} \times \Bv$ or $E = v_0B$ when all are perpendicular, and when the rays passed undeflected so $v = v_{0} = \frac{E}{B}$, one gets $v = \sqrt{\frac{2eV}{m}} = \frac{E}{B}$, or $\frac{2eV}{m} = \frac{E^2}{B^2}$. Therefore, by measuring $V$, $B$, and $E$ on the right hand side, one has a measurement of the charge-to-mass ratio $\frac{e}{m}$ of the particles, which became known as \textbf{electrons} after an earlier 1891 suggestion by George Johnstone Stoney. The main significance was that Thomson got a single value for $\frac{e}{m}$, not depending on details of the experimental conditions, so it showed that cathode rays are composed of particles with a unique charge-to-mass ration $e/m$. (Of course, the negative sign of the charge was also known from the sign of $V$, so the charge-to-mass ratio is really $-e/m$.)
+
+Note that the only $-e/m$ was measured by J.J. Thomson's experiment, but not either $-e$ or $m$ separately. One can see that this is true without any detailed math, since if each particle has a measured velocity $v$ that is the same, a pair of particles would have the same velocity, and in Thomson's experiment a pair traveling at $v$ would be indistinguishable from a single particle of twice the charge and twice the mass, which would have the same charge-to-mass ratio. The charge itself was measured 12 years later by the 1909 \textbf{oil drop experiment} by Robert A. Millikan and Harvey Fletcher. The experiment measured the differences in electric forces on an oil drop that differed from neutrality by one or more electrons.
+
+The argument I presented for why J.J. Thomson's experiment, which did not detect individual electrons, measured only the charge-to-mass ratio. reminds of Galileo's argument against ARistotle's calim that objects would fall at speeds proportional to their weights, in \textit{Dialogues Concerning Two New Sciences:} 
+
+``But, even without further experiment, it is possible to prove clearly, by means of a short and conclusive argument, that a heavier body does not move more rapidly than a lighter one, provided both bodies are of the same material.... If then we take two bodies whose natural speeds are different, it is clear that on uniting the two, the more rapid one will be partly retarded by the slower, and the slower will be somewhat hastened by the swifter...
+
+``But, if this is true, and if a large stone moves with a speed of, say, eight, while a smaller stone moves with a speed of four, then when they are united, the system will move with a speed less than eight; but the two stones when tied together make a stone larger than that which before moved with a speed of eight. Hence the heavier body moves with less speed than the lighter; an effect which is contrary to your supposition. Thus you see how, from your assumption that the heavier body moves more rapidly than the light one, I infer that the heavier one moves more slowly.... We infer therefore that large and small bodies move with the same speed, provided they are of the same specific gravity." | Galileo Galilei
+
+Once the electron charge $-e$ was measured, one could measure the masses of singly ionized atoms (one electron lost from the neutral atom, so ion charge $+e$) by their motion in measured electric and magnetic fields. First, the velocity $\vv = \vec{v_0}$ (within some limits of the size of the aperture where the beam emerges) is measured by having the particles traverse a region with $\Bv$ and with $\Ev = -\vec{v_0}\times\Bv$. Next, the (nonrelativistic) particles pass through a region with a different electromagnetic field $\Ev'=0$, $\Bv' \neq 0$, where they are bent into circular arcs of radius $R = \frac{p}{qB'} = \frac{mv}{qB'}$, so for $q = +e$, $m = \frac{qB'R}{V} = \frac{qB'R}{E/B}$. In 1913, J.J. Thomson found by this method that neon atoms had two different masses, neon-20 and neon-22, both now known to have 10 protons, but different numbers of neutrons (10 or 12). Thomson's student Francis William Aston made the first fully functional mass spectrometer in 1919.
+
+\section{Magnetic Force on a Current}
+
+If we have a current Density $\Jv = qn\vec{v_d}$ or $\sum_{i=1}^{N}q_i n_i \vec{v_d}_i$ with $N$ species or $\bracks{\sum_{j=1}^{M}q_i \vec{v_d}_i}/V$ with $M$ particles in volume $V$, the total magnetic force is $\Fv_M = \sum_{j=1}^{M}q_i \vec{v_d}_i \times \Bv = V\Jv \times \Bv$, or \textbf{force density} $\boxed{ \vec{f} = \Jv \times \Bv }$ (magnetic force per unit volume).
+
+Suppose the current is flowing through a fairly thin wire segment of vector length $\di \vec{l}$. The current is $I = \int \vec{J} \cdot \di \vec{A}$, and the current density will be in the direction of $\di \vec{l}$, $\vec{J} = J\frac{\di \vec{l}}{\di l}$, with $\di \vec{l} \cdot \di \vec{A} = \di V$, the volume element of the wire segment, so $I = \int J \frac{\di \vec{l}}{\di l} \cdot \di \vec{A} = \frac{1}{\di l} J \di V$, or $J = \frac{I \di l}{\di V}$, $\vec{J} = \frac{I \di \vec{l}}{\di V}$. Then the force density is $\vec{f} = \vec{J} \times \Bv = \frac{I \di \vec{l}}{\di V} \times \Bv$, and the element of force is $\di \Fv = \vec{f} \di V$, or $\boxed{ \di \Fv = I \di \vec{l} \times \Bv }$, the current $I$ multiplied by the cross product of the length $\di \vec{l}$ and of $\Bv$.
+
+\section{Force and Torque on a Current Loop}
+
+The net force in a uniform magnetic field is 0.
+
+\textbf{Torque} is a twisting about some pivot point, the time rate of the transfer of angular momentum in the same way that force is the time rate of the transfer of linear momentum. 
+
+\begin{equation}
+\boxed{ \vec{\tau} = I \oint \vec{r} \times (\di \vec{r} \times \Bv). }
+\end{equation}
+
+\begin{equation}
+\boxed{ \vec{\tau} = I \oint \sbracks{ \di \vec{r}(\vec{r}\cdot\Bv) - \Bv(\vec{r}\cdot\di\vec{r}) }. }
+\end{equation}
+
+\begin{equation}
+\boxed{ \vec{\tau} = I\vec{A}\times\Bv, }
+\end{equation}
+where $I$ is the current in the loop and $\vec{A}$ is the vector area (the vector sum of the vector areas of all the infinitesimal areas filling in the loop on any smooth surface filling in the loop; if the loop is planar, lying in one plane, the magnitude $A = |\vec{A}|$ of the vector area $\vec{A}$ is the normal to the plane, with the sense that $\vec{A}$ is up when the current goes around counterclockwise as seen from above).
+
+The \textbf{magnetic dipole moment} vector of the loop with current $I$ and vector area $\vec{A} = \frac{1}{2} \oint \vec{r} \times \di \vec{r}$ is $\boxed{\vec{\mu} = I\vec{A}}$.
+
+The vector magnetic torque of the magnetic dipole $\vec{\mu}$ by a uniform magnetic field is $\boxed{\vec{\tau} = \vec{\mu} \times \Bv}$.
+
+The magnetic torque $\vec{\tau} = \vec{\mu} \times \Bv$ on a magnetic dipole moment $\vec{\mu}$ in a magnetic field leads to a potential energy $\boxed{U = -\vec{\mu} \cdot \Bv} = -\mu B\cos\theta$, where $\theta$ is the angle between the magnetic dipole moment $\vec{\mu}$ and the magnetic field $\Bv$.
+
+\section{The Hall Effect}
+
+When one has a current moving through a wide strip and a magnetic field perpendicular to the strip, the $\vec{f} = \vec{J} \times \Bv$ force density pushes charges in that direction (which is independent of the sign of the charge carriers) until the excess charge on that edge (of the same sign as the charge carriers) produces an electric field in the strip that balances the magnetic force, so that in the steady-state situation there is no force on the charge carriers with drift velocity $\vec{v_d}$ when $\Ev = -\vec{v_d}\times\Bv$. Then from this $\Ev$ and $\Bv$, one can get the sign of $\vec{v_d}$ (whether going one way or the other along the length of the strip). Knowing the current gives $\vec{J} = qn\vec{v_d}$, so then knowing $\vec{v_d}$ gives $qn$ and hence the sign of $q$.
