@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2020.1.22)  20 APR 2020 15:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2020.1.22)  22 APR 2020 12:29
 entering extended mode
 **./main.tex
 (main.tex
@@ -598,20 +598,20 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 39.
  (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -751,7 +751,7 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 \AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring ON on input line 76.
+Package hyperref Info: Link coloring ON on input line 83.
 (/home/lora/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -764,20 +764,20 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count308
 )
-LaTeX Info: Redefining \ref on input line 76.
-LaTeX Info: Redefining \pageref on input line 76.
-LaTeX Info: Redefining \nameref on input line 76.
+LaTeX Info: Redefining \ref on input line 83.
+LaTeX Info: Redefining \pageref on input line 83.
+LaTeX Info: Redefining \nameref on input line 83.
  (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 76.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
 
 
 (/home/lora/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 76.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
 
 
 (/home/lora/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
@@ -807,40 +807,49 @@ x/n/10.95 voltemeters\OT1/cmr/m/n/10.95 ),
  []
 
 [2]
-<Images/shunt.PNG, id=61, 266.49562pt x 73.02281pt>
+<Images/shunt.PNG, id=111, 266.49562pt x 73.02281pt>
 File: Images/shunt.PNG Graphic file (type png)
 <use Images/shunt.PNG>
 Package pdftex.def Info: Images/shunt.PNG  used on input line 29.
 (pdftex.def)             Requested size: 197.91422pt x 54.23212pt.
-<Images/ammetervoltmeter.PNG, id=63, 481.8pt x 179.16937pt>
+<Images/ammetervoltmeter.PNG, id=113, 481.8pt x 179.16937pt>
 File: Images/ammetervoltmeter.PNG Graphic file (type png)
 <use Images/ammetervoltmeter.PNG>
 Package pdftex.def Info: Images/ammetervoltmeter.PNG  used on input line 38.
 (pdftex.def)             Requested size: 395.83598pt x 147.20415pt.
  [3 <./Images/shunt.PNG> <./Images/ammetervoltmeter.PNG>] [4] [5]
-<Images/switch.PNG, id=82, 526.96875pt x 167.12437pt>
+<Images/switch.PNG, id=132, 526.96875pt x 167.12437pt>
 File: Images/switch.PNG Graphic file (type png)
 <use Images/switch.PNG>
 Package pdftex.def Info: Images/switch.PNG  used on input line 76.
 (pdftex.def)             Requested size: 346.35365pt x 109.8485pt.
  [6 <./Images/switch.PNG>]
-<Images/charging.PNG, id=90, 578.91281pt x 230.36063pt>
+<Images/charging.PNG, id=140, 578.91281pt x 230.36063pt>
 File: Images/charging.PNG Graphic file (type png)
 <use Images/charging.PNG>
 Package pdftex.def Info: Images/charging.PNG  used on input line 112.
 (pdftex.def)             Requested size: 346.35365pt x 137.82024pt.
-) (Chapters/chap7.tex
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7] [8 <./Images/charging.PNG>]
+<Images/closedcct.PNG, id=141, 285.31593pt x 127.97812pt>
+File: Images/closedcct.PNG Graphic file (type png)
+<use Images/closedcct.PNG>
+Package pdftex.def Info: Images/closedcct.PNG  used on input line 117.
+(pdftex.def)             Requested size: 197.91422pt x 88.77365pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7] [8 <./Images/charging.PNG> <./Images/closedcct.PNG>]) (Chapters/chap7.tex
+[9]
 Chapter 2.
-<Images/chap7_1.png, id=106, 247.92625pt x 105.39375pt>
+<Images/chap7_1.png, id=174, 247.92625pt x 105.39375pt>
 File: Images/chap7_1.png Graphic file (type png)
 <use Images/chap7_1.png>
 Package pdftex.def Info: Images/chap7_1.png  used on input line 12.
 (pdftex.def)             Requested size: 142.26378pt x 60.4771pt.
-[9
+[10
 
  <./Images/chap7_1.png (PNG copy)>]
 Overfull \hbox (11.53853pt too wide) in paragraph at lines 32--33
@@ -848,13 +857,13 @@ Overfull \hbox (11.53853pt too wide) in paragraph at lines 32--33
 1960s saw the unification of electromagnetism
  []
 
-[10] [11]
+[11] [12]
 Overfull \hbox (0.8218pt too wide) in paragraph at lines 44--45
 \OT1/cmr/m/n/10.95 Canada. But because the field is not purely a dipole, the No
 rth Magnetic Pole and the North Geomagnetic
  []
 
-[12]) (Chapters/chap8.tex [13]
+[13] [14] [15] [16] [17] [18] [19]) [20] (Chapters/chap8.tex [21]
 Chapter 3.
 
 LaTeX Warning: Command \textbullet invalid in math mode on input line 5.
@@ -870,7 +879,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 
 LaTeX Warning: Command \textbullet invalid in math mode on input line 5.
 
-[14
+[22
 
 ]
 Overfull \hbox (4.36148pt too wide) in paragraph at lines 46--47
@@ -879,25 +888,36 @@ adiation at $[][]\OML/cmm/m/it/10.95 C$\OT1/cmr/m/n/10.95 ), one can get the el
 ectromagnetic
  []
 
-[15]) [16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
- [17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
+[23] [24]) [25]
+Chapter 4.
+[26
+
+] [27]
+Chapter 5.
+[28
+
+]
+Chapter 6.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 143.
+[29
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 143.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 97.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 143.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 143.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9C7A031B3CFC9ABBE8E3581A27AAEF98;378.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
+(rerunfilecheck)             Checksum: 0EDAA6024FEFF35B06FD0C9574EA2AFD;1056.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 143.
  ) 
 Here is how much of TeX's memory you used:
- 20472 strings out of 494410
- 385503 string characters out of 3174536
- 448025 words of memory out of 3000000
- 24293 multiletter control sequences out of 15000+200000
- 544260 words of font info for 70 fonts, out of 3000000 for 9000
+ 20540 strings out of 494410
+ 386212 string characters out of 3174536
+ 448065 words of memory out of 3000000
+ 24314 multiletter control sequences out of 15000+200000
+ 544606 words of font info for 71 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 44i,12n,67p,1708b,957s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,19n,67p,3113b,957s stack positions out of 5000i,500n,10000p,200000b,50000s
 </home/lora/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </home/lora/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
 home/lora/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></ho
@@ -910,10 +930,11 @@ x/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/lora/.miktex/te
 xmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/lora/.miktex/texmfs
 /install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/lora/.miktex/texmfs/i
 nstall/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/lora/.miktex/texmfs/inst
-all/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (19 pages, 408874 bytes).
+all/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/lora/.miktex/texmfs/install
+/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (31 pages, 505151 bytes).
 PDF statistics:
- 216 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
- 74 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 353 PDF objects out of 1000 (max. 8388607)
+ 96 named destinations out of 1000 (max. 500000)
+ 159 words of extra memory for PDF output out of 10000 (max. 10000000)
 
