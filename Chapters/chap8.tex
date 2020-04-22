@@ -62,4 +62,13 @@ In November 2018, the 26th General Conference on Weights and Measures (CGPM) app
 1 kelvin = $\SI{1}{\frac{J}{k}}$, $k = \SI{1.380649e-23}{\frac{kg \cdot m^2}{s^2 K}}$(Boltemann). 
 1 mole = $\SI{6.02214076e23}{}$ elementary entities. 
 1 candela (cd) is defined so that the luminous efficacy of monochromatic radiation of frequency $\SI{540e12}{Hz}$ is $\SI{683}{\frac{cd \cdot sr \cdot s^3}{kg m^3}}$.
-Therefore, sa of 2019 May 20, $\frac{\mu_0}{4\pi}$ is not defined to be exactly $\SI{10e-7}{\frac{kg \cdot m}{C^2}} = \SI{10e-7}{\frac{N}{A^2}}$ ut will be determined by experiment, using the new definition of the coulomb in terms of the elementary charge $e$. 
+Therefore, sa of 2019 May 20, $\frac{\mu_0}{4\pi}$ is not defined to be exactly $\SI{10e-7}{\frac{kg \cdot m}{C^2}} = \SI{10e-7}{\frac{N}{A^2}}$ ut will be determined by experiment, using the new definition of the coulomb in terms of the elementary charge $e$.
+One way that the new meaning of $\mu_0$ can be measured (no longer a defined quantity) is to use the fact that Maxwell's equations imply the electromagnetic waves in vacuum travel at speed $c= \frac{1}{\sqrt{\varepsilon_0\mu_0}}$ and the Coulomb constant $k = \frac{1}{4 \pi \varepsilon_0} = c^2 \frac{\mu_0}{4\pi}$ in $\vec{E} = \frac{kq \hat{r}}{r^2}$, and the value of the fine-structure constant (with $\kappa = \frac{h}{2 \pi}$) is $\mu \alpha \SI{137.035999158e-7}{\frac{kg \cdot m}{C^2}}$ where $\alpha = \frac{\mu_0e^2c}{2h}$.
+
+If we have many charges in a small region, rather than adding up the effects of each charge, it is better to average over the region so $\sum q_j \vec{v}_j \rightarrow \vec{J} \di V$, the current density $\vec{J}$ times the volume element. Then if the current is in a thin wire with negligible change in $\frac{\vec{r}_0 - \vec{r}}{\abs{\vec{r}_0 - \vec{r}}}^3$ across the wire integrating $\di V$ with a short segment $\di l$ of the wire using $\di V = \di l \cdot \di \vec{A}$ with $\vec{J}$ parallel to $\di l$ gives
+\begin{equation}
+\boxed{\vec{B}(\vec{r}_0) = \frac{\mu_0}{4 \pi} \int \frac{I \di \vec{l} \times (\vec{r}_0 - \vec{r})}{\abs{\vec{r}_0 - \vec{r}}^3}}
+\end{equation}
+The infinitesimal form in the box is generally known as the \textbf{law of Biot and Savart}
+
+For an infinitely long straight wire, put it on the z-axis$\vec{r}\hat{k}$, $\di \vec{l}= \di \vec{r} = \hat{k} \di z$
