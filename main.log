@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2020.1.22)  20 APR 2020 15:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2020.1.22)  20 APR 2020 15:45
 entering extended mode
 **./main.tex
 (main.tex
@@ -790,19 +790,57 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  [1
 
-] (Chapters/chap7.tex
+] (Chapters/chap6.tex
 Chapter 1.
-<Images/chap7_1.png, id=31, 247.92625pt x 105.39375pt>
-File: Images/chap7_1.png Graphic file (type png)
-<use Images/chap7_1.png>
-Package pdftex.def Info: Images/chap7_1.png  used on input line 12.
-(pdftex.def)             Requested size: 142.26378pt x 60.4771pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.22 \end{equation}
-                    [1
+l.17 
+      [1
+
+]
+Overfull \hbox (0.13448pt too wide) in paragraph at lines 19--20
+\OT1/cmr/m/n/10.95 Electrical measuring instruments for current (\OT1/cmr/bx/n/
+10.95 ammeters\OT1/cmr/m/n/10.95 ), potential difference or voltage (\OT1/cmr/b
+x/n/10.95 voltemeters\OT1/cmr/m/n/10.95 ),
+ []
+
+[2]
+<Images/shunt.PNG, id=61, 266.49562pt x 73.02281pt>
+File: Images/shunt.PNG Graphic file (type png)
+<use Images/shunt.PNG>
+Package pdftex.def Info: Images/shunt.PNG  used on input line 29.
+(pdftex.def)             Requested size: 197.91422pt x 54.23212pt.
+<Images/ammetervoltmeter.PNG, id=63, 481.8pt x 179.16937pt>
+File: Images/ammetervoltmeter.PNG Graphic file (type png)
+<use Images/ammetervoltmeter.PNG>
+Package pdftex.def Info: Images/ammetervoltmeter.PNG  used on input line 38.
+(pdftex.def)             Requested size: 395.83598pt x 147.20415pt.
+ [3 <./Images/shunt.PNG> <./Images/ammetervoltmeter.PNG>] [4] [5]
+<Images/switch.PNG, id=82, 526.96875pt x 167.12437pt>
+File: Images/switch.PNG Graphic file (type png)
+<use Images/switch.PNG>
+Package pdftex.def Info: Images/switch.PNG  used on input line 76.
+(pdftex.def)             Requested size: 346.35365pt x 109.8485pt.
+ [6 <./Images/switch.PNG>]
+<Images/charging.PNG, id=90, 578.91281pt x 230.36063pt>
+File: Images/charging.PNG Graphic file (type png)
+<use Images/charging.PNG>
+Package pdftex.def Info: Images/charging.PNG  used on input line 112.
+(pdftex.def)             Requested size: 346.35365pt x 137.82024pt.
+) (Chapters/chap7.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7] [8 <./Images/charging.PNG>]
+Chapter 2.
+<Images/chap7_1.png, id=106, 247.92625pt x 105.39375pt>
+File: Images/chap7_1.png Graphic file (type png)
+<use Images/chap7_1.png>
+Package pdftex.def Info: Images/chap7_1.png  used on input line 12.
+(pdftex.def)             Requested size: 142.26378pt x 60.4771pt.
+[9
 
  <./Images/chap7_1.png (PNG copy)>]
 Overfull \hbox (11.53853pt too wide) in paragraph at lines 32--33
@@ -810,14 +848,14 @@ Overfull \hbox (11.53853pt too wide) in paragraph at lines 32--33
 1960s saw the unification of electromagnetism
  []
 
-[2] [3]
+[10] [11]
 Overfull \hbox (0.8218pt too wide) in paragraph at lines 44--45
 \OT1/cmr/m/n/10.95 Canada. But because the field is not purely a dipole, the No
 rth Magnetic Pole and the North Geomagnetic
  []
 
-[4]) (Chapters/chap8.tex [5]
-Chapter 2.
+[12]) (Chapters/chap8.tex [13]
+Chapter 3.
 
 LaTeX Warning: Command \textbullet invalid in math mode on input line 5.
 
@@ -832,7 +870,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 
 LaTeX Warning: Command \textbullet invalid in math mode on input line 5.
 
-[6
+[14
 
 ]
 Overfull \hbox (4.36148pt too wide) in paragraph at lines 46--47
@@ -841,29 +879,25 @@ adiation at $[][]\OML/cmm/m/it/10.95 C$\OT1/cmr/m/n/10.95 ), one can get the el
 ectromagnetic
  []
 
-[7]) (Chapters/chap9.tex [8]
-Chapter 3.
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
- [9
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
+[15]) [16]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
+ [17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 97.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3E2CA8A8ED84D2581226081FFAE2FA34;189.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
+(rerunfilecheck)             Checksum: 9C7A031B3CFC9ABBE8E3581A27AAEF98;378.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
  ) 
 Here is how much of TeX's memory you used:
- 20422 strings out of 494410
- 384681 string characters out of 3174536
- 447025 words of memory out of 3000000
- 24268 multiletter control sequences out of 15000+200000
- 543655 words of font info for 68 fonts, out of 3000000 for 9000
+ 20472 strings out of 494410
+ 385503 string characters out of 3174536
+ 448025 words of memory out of 3000000
+ 24293 multiletter control sequences out of 15000+200000
+ 544260 words of font info for 70 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 44i,12n,67p,1126b,957s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,12n,67p,1708b,957s stack positions out of 5000i,500n,10000p,200000b,50000s
 </home/lora/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </home/lora/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
 home/lora/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></ho
@@ -877,9 +911,9 @@ xmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/lora/.miktex/texmfs
 /install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/lora/.miktex/texmfs/i
 nstall/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/lora/.miktex/texmfs/inst
 all/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (11 pages, 209087 bytes).
+Output written on main.pdf (19 pages, 408874 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
- 30 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 216 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 74 words of extra memory for PDF output out of 10000 (max. 10000000)
 
